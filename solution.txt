@@ -1,0 +1,10 @@
+git clone https://github.com/Av3r/epg1_git.git
+cd epg1_git
+git branch hw-s15629
+git checkout rebase-me
+git rebase hw-s15629	rebase to top
+git checkout master
+git merge rebase-me
+git checkout hw-s15629
+git merge rebase-me
+nano solution.txt
